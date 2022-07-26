@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle sobat-gaming-slot",
+        "command": "sobat-gaming-slot:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "sobat-gaming-slot",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "sobat-gaming-slot:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
